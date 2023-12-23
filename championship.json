@@ -121,11 +121,7 @@
             "category": {
               "name": "England",
               "slug": "england",
-              "sport": {
-                "name": "Football",
-                "slug": "football",
-                "id": 1
-              },
+              "sport": { "name": "Football", "slug": "football", "id": 1 },
               "id": 1,
               "flag": "england",
               "alpha2": "EN"
@@ -138,11 +134,7 @@
               "category": {
                 "name": "England",
                 "slug": "england",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "id": 1,
                 "flag": "england",
                 "alpha2": "EN"
@@ -169,11 +161,7 @@
                 "slug": "arsenal",
                 "shortName": "Arsenal",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 991548,
                 "nameCode": "ARS",
                 "disabled": false,
@@ -187,10 +175,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 1,
               "matches": 13,
               "wins": 9,
@@ -207,11 +192,7 @@
                 "slug": "manchester-city",
                 "shortName": "Man City",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 1325307,
                 "nameCode": "MCI",
                 "disabled": false,
@@ -225,10 +206,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 2,
               "matches": 13,
               "wins": 9,
@@ -245,11 +223,7 @@
                 "slug": "liverpool",
                 "shortName": "Liverpool",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 1180551,
                 "nameCode": "LIV",
                 "disabled": false,
@@ -263,10 +237,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 3,
               "matches": 13,
               "wins": 8,
@@ -283,11 +254,7 @@
                 "slug": "aston-villa",
                 "shortName": "Aston Villa",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 222524,
                 "nameCode": "AVL",
                 "disabled": false,
@@ -301,10 +268,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 4,
               "matches": 13,
               "wins": 9,
@@ -321,11 +285,7 @@
                 "slug": "tottenham-hotspur",
                 "shortName": "Tottenham ",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 597982,
                 "nameCode": "TOT",
                 "disabled": false,
@@ -339,10 +299,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "UEFA Europa League",
-                "id": 808
-              },
+              "promotion": { "text": "UEFA Europa League", "id": 808 },
               "position": 5,
               "matches": 13,
               "wins": 8,
@@ -359,11 +316,7 @@
                 "slug": "manchester-united",
                 "shortName": "Man Utd",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 1287218,
                 "nameCode": "MUN",
                 "disabled": false,
@@ -393,11 +346,7 @@
                 "slug": "newcastle-united",
                 "shortName": "Newcastle",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 375250,
                 "nameCode": "NEW",
                 "disabled": false,
@@ -427,11 +376,7 @@
                 "slug": "brighton-and-hove-albion",
                 "shortName": "Brighton",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 233996,
                 "nameCode": "BHA",
                 "disabled": false,
@@ -461,11 +406,7 @@
                 "slug": "west-ham-united",
                 "shortName": "West Ham",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 251721,
                 "nameCode": "WHU",
                 "disabled": false,
@@ -495,11 +436,7 @@
                 "slug": "chelsea",
                 "shortName": "Chelsea",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 935064,
                 "nameCode": "CHE",
                 "disabled": false,
@@ -529,11 +466,7 @@
                 "slug": "brentford",
                 "shortName": "Brentford",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 125018,
                 "nameCode": "BRE",
                 "disabled": false,
@@ -563,11 +496,7 @@
                 "slug": "wolverhampton",
                 "shortName": "Wolves",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 141135,
                 "nameCode": "WOL",
                 "disabled": false,
@@ -597,11 +526,7 @@
                 "slug": "crystal-palace",
                 "shortName": "Crystal Palace",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 115848,
                 "nameCode": "CRY",
                 "disabled": false,
@@ -631,11 +556,7 @@
                 "slug": "fulham",
                 "shortName": "Fulham",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 128103,
                 "nameCode": "FUL",
                 "disabled": false,
@@ -665,11 +586,7 @@
                 "slug": "nottingham-forest",
                 "shortName": "Forest",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 104800,
                 "nameCode": "NFO",
                 "disabled": false,
@@ -699,11 +616,7 @@
                 "slug": "bournemouth",
                 "shortName": "Bournemouth",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 81431,
                 "nameCode": "BOU",
                 "disabled": false,
@@ -733,11 +646,7 @@
                 "slug": "luton-town",
                 "shortName": "Luton",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 51373,
                 "nameCode": "LUT",
                 "disabled": false,
@@ -767,11 +676,7 @@
                 "slug": "sheffield-united",
                 "shortName": "Sheffield Utd",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 66875,
                 "nameCode": "SHU",
                 "disabled": false,
@@ -785,10 +690,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 18,
               "matches": 13,
               "wins": 1,
@@ -805,11 +707,7 @@
                 "slug": "everton",
                 "shortName": "Everton",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 175275,
                 "nameCode": "EVE",
                 "disabled": false,
@@ -828,10 +726,7 @@
                   "id": 375
                 }
               ],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 19,
               "matches": 13,
               "wins": 4,
@@ -848,11 +743,7 @@
                 "slug": "burnley",
                 "shortName": "Burnley",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 92027,
                 "nameCode": "BUR",
                 "disabled": false,
@@ -866,10 +757,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 20,
               "matches": 13,
               "wins": 1,
@@ -895,11 +783,7 @@
             "category": {
               "name": "Spain",
               "slug": "spain",
-              "sport": {
-                "name": "Football",
-                "slug": "football",
-                "id": 1
-              },
+              "sport": { "name": "Football", "slug": "football", "id": 1 },
               "id": 32,
               "flag": "spain",
               "alpha2": "ES"
@@ -912,11 +796,7 @@
               "category": {
                 "name": "Spain",
                 "slug": "spain",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "id": 32,
                 "flag": "spain",
                 "alpha2": "ES"
@@ -943,11 +823,7 @@
                 "slug": "real-madrid",
                 "shortName": "Real Madrid",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 1716679,
                 "nameCode": "RMA",
                 "disabled": false,
@@ -961,10 +837,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 1,
               "matches": 14,
               "wins": 11,
@@ -981,11 +854,7 @@
                 "slug": "girona",
                 "shortName": "Girona",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 110711,
                 "nameCode": "GIR",
                 "disabled": false,
@@ -999,14 +868,7 @@
                 }
               },
               "descriptions": [],
-<<<<<<< HEAD
               "promotion": { "text": "Champions League", "id": 804 },
-=======
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
->>>>>>> 9999f4cd2dcc294b33d870ab9a7d2a5754fb9934
               "position": 2,
               "matches": 14,
               "wins": 11,
@@ -1023,11 +885,7 @@
                 "slug": "atletico-madrid",
                 "shortName": "Atl. Madrid",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 566368,
                 "nameCode": "ATM",
                 "disabled": false,
@@ -1041,10 +899,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 3,
               "matches": 13,
               "wins": 10,
@@ -1061,11 +916,7 @@
                 "slug": "barcelona",
                 "shortName": "Barcelona",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 1588104,
                 "nameCode": "FCB",
                 "disabled": false,
@@ -1079,10 +930,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 4,
               "matches": 14,
               "wins": 9,
@@ -1099,11 +947,7 @@
                 "slug": "athletic-club",
                 "shortName": "Athletic Club",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 126519,
                 "nameCode": "ATH",
                 "disabled": false,
@@ -1117,10 +961,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "UEFA Europa League",
-                "id": 808
-              },
+              "promotion": { "text": "UEFA Europa League", "id": 808 },
               "position": 5,
               "matches": 14,
               "wins": 7,
@@ -1137,11 +978,7 @@
                 "slug": "real-sociedad",
                 "shortName": "Real Sociedad",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 186691,
                 "nameCode": "RSO",
                 "disabled": false,
@@ -1175,11 +1012,7 @@
                 "slug": "real-betis",
                 "shortName": "Betis",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 143634,
                 "nameCode": "RBB",
                 "disabled": false,
@@ -1209,11 +1042,7 @@
                 "slug": "getafe",
                 "shortName": "Getafe",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 71734,
                 "nameCode": "GET",
                 "disabled": false,
@@ -1243,11 +1072,7 @@
                 "slug": "rayo-vallecano",
                 "shortName": "Rayo Vallecano",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 73563,
                 "nameCode": "RVM",
                 "disabled": false,
@@ -1277,11 +1102,7 @@
                 "slug": "valencia",
                 "shortName": "Valencia",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 127346,
                 "nameCode": "VCF",
                 "disabled": false,
@@ -1311,11 +1132,7 @@
                 "slug": "las-palmas",
                 "shortName": "Las Palmas",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 45891,
                 "nameCode": "LPA",
                 "disabled": false,
@@ -1345,11 +1162,7 @@
                 "slug": "villarreal",
                 "shortName": "Villarreal",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 183876,
                 "nameCode": "VIL",
                 "disabled": false,
@@ -1379,11 +1192,7 @@
                 "slug": "deportivo-alaves",
                 "shortName": "Alav\u00e9s",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 49257,
                 "nameCode": "ALA",
                 "disabled": false,
@@ -1413,11 +1222,7 @@
                 "slug": "osasuna",
                 "shortName": "Osasuna",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 74657,
                 "nameCode": "OSA",
                 "disabled": false,
@@ -1447,11 +1252,7 @@
                 "slug": "sevilla",
                 "shortName": "Sevilla",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 306667,
                 "nameCode": "SEV",
                 "disabled": false,
@@ -1481,11 +1282,7 @@
                 "slug": "cadiz",
                 "shortName": "C\u00e1diz",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 60611,
                 "nameCode": "CAD",
                 "disabled": false,
@@ -1515,11 +1312,7 @@
                 "slug": "mallorca",
                 "shortName": "Mallorca",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 58979,
                 "nameCode": "MLL",
                 "disabled": false,
@@ -1549,11 +1342,7 @@
                 "slug": "celta-vigo",
                 "shortName": "Celta",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 79346,
                 "nameCode": "RCC",
                 "disabled": false,
@@ -1567,10 +1356,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 18,
               "matches": 14,
               "wins": 1,
@@ -1587,11 +1373,7 @@
                 "slug": "granada",
                 "shortName": "Granada",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 49327,
                 "nameCode": "GCF",
                 "disabled": false,
@@ -1605,10 +1387,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 19,
               "matches": 14,
               "wins": 1,
@@ -1625,11 +1404,7 @@
                 "slug": "almeria",
                 "shortName": "Almer\u00eda",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 51950,
                 "nameCode": "ALM",
                 "disabled": false,
@@ -1643,10 +1418,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 20,
               "matches": 14,
               "wins": 0,
@@ -1672,11 +1444,7 @@
             "category": {
               "name": "Germany",
               "slug": "germany",
-              "sport": {
-                "name": "Football",
-                "slug": "football",
-                "id": 1
-              },
+              "sport": { "name": "Football", "slug": "football", "id": 1 },
               "id": 30,
               "flag": "germany",
               "alpha2": "DE"
@@ -1689,11 +1457,7 @@
               "category": {
                 "name": "Germany",
                 "slug": "germany",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "id": 30,
                 "flag": "germany",
                 "alpha2": "DE"
@@ -1720,11 +1484,7 @@
                 "slug": "bayer-04-leverkusen",
                 "shortName": "Leverkusen",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 219659,
                 "nameCode": "B04",
                 "disabled": false,
@@ -1738,10 +1498,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 1,
               "matches": 12,
               "wins": 11,
@@ -1758,11 +1515,7 @@
                 "slug": "fc-bayern-munchen",
                 "shortName": "Bayern",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 887355,
                 "nameCode": "BAY",
                 "disabled": false,
@@ -1776,10 +1529,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 2,
               "matches": 12,
               "wins": 10,
@@ -1796,11 +1546,7 @@
                 "slug": "vfb-stuttgart",
                 "shortName": "Stuttgart",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 67414,
                 "nameCode": "VFB",
                 "disabled": false,
@@ -1814,10 +1560,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 3,
               "matches": 12,
               "wins": 9,
@@ -1834,11 +1577,7 @@
                 "slug": "borussia-dortmund",
                 "shortName": "Dortmund",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 584569,
                 "nameCode": "BVB",
                 "disabled": false,
@@ -1852,10 +1591,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 4,
               "matches": 12,
               "wins": 7,
@@ -1872,11 +1608,7 @@
                 "slug": "rb-leipzig",
                 "shortName": "Leipzig",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 298748,
                 "nameCode": "RBL",
                 "disabled": false,
@@ -1890,10 +1622,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "UEFA Europa League",
-                "id": 808
-              },
+              "promotion": { "text": "UEFA Europa League", "id": 808 },
               "position": 5,
               "matches": 12,
               "wins": 7,
@@ -1910,11 +1639,7 @@
                 "slug": "tsg-hoffenheim",
                 "shortName": "Hoffenheim",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 51327,
                 "nameCode": "TSG",
                 "disabled": false,
@@ -1948,11 +1673,7 @@
                 "slug": "eintracht-frankfurt",
                 "shortName": "Frankfurt",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 122137,
                 "nameCode": "SGE",
                 "disabled": false,
@@ -1982,11 +1703,7 @@
                 "slug": "vfl-wolfsburg",
                 "shortName": "Wolfsburg",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 57434,
                 "nameCode": "WOB",
                 "disabled": false,
@@ -2016,11 +1733,7 @@
                 "slug": "sc-freiburg",
                 "shortName": "Freiburg",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 78189,
                 "nameCode": "SCF",
                 "disabled": false,
@@ -2050,11 +1763,7 @@
                 "slug": "fc-augsburg",
                 "shortName": "Augsburg",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 34096,
                 "nameCode": "FCA",
                 "disabled": false,
@@ -2084,11 +1793,7 @@
                 "slug": "borussia-mgladbach",
                 "shortName": "M'gladbach",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 74511,
                 "nameCode": "BMG",
                 "disabled": false,
@@ -2118,11 +1823,7 @@
                 "slug": "sv-werder-bremen",
                 "shortName": "Bremen",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 44730,
                 "nameCode": "SVW",
                 "disabled": false,
@@ -2152,11 +1853,7 @@
                 "slug": "1-fc-heidenheim",
                 "shortName": "Heidenheim",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 25415,
                 "nameCode": "FCH",
                 "disabled": false,
@@ -2186,11 +1883,7 @@
                 "slug": "vfl-bochum-1848",
                 "shortName": "Bochum",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 35053,
                 "nameCode": "BOC",
                 "disabled": false,
@@ -2220,11 +1913,7 @@
                 "slug": "darmstadt-98",
                 "shortName": "Darmstadt",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 33654,
                 "nameCode": "D98",
                 "disabled": false,
@@ -2254,11 +1943,7 @@
                 "slug": "1-fsv-mainz-05",
                 "shortName": "Mainz 05",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 43548,
                 "nameCode": "M05",
                 "disabled": false,
@@ -2272,10 +1957,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation Playoffs",
-                "id": 45
-              },
+              "promotion": { "text": "Relegation Playoffs", "id": 45 },
               "position": 16,
               "matches": 12,
               "wins": 1,
@@ -2292,11 +1974,7 @@
                 "slug": "1-fc-union-berlin",
                 "shortName": "Union Berlin",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 131677,
                 "nameCode": "FCU",
                 "disabled": false,
@@ -2310,10 +1988,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 17,
               "matches": 12,
               "wins": 2,
@@ -2330,11 +2005,7 @@
                 "slug": "1-fc-koln",
                 "shortName": "K\u00f6ln",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 51822,
                 "nameCode": "KOE",
                 "disabled": false,
@@ -2348,10 +2019,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 18,
               "matches": 12,
               "wins": 1,
@@ -2377,11 +2045,7 @@
             "category": {
               "name": "Italy",
               "slug": "italy",
-              "sport": {
-                "name": "Football",
-                "slug": "football",
-                "id": 1
-              },
+              "sport": { "name": "Football", "slug": "football", "id": 1 },
               "id": 31,
               "flag": "italy",
               "alpha2": "IT"
@@ -2394,11 +2058,7 @@
               "category": {
                 "name": "Italy",
                 "slug": "italy",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "id": 31,
                 "flag": "italy",
                 "alpha2": "IT"
@@ -2425,11 +2085,7 @@
                 "slug": "inter",
                 "shortName": "Inter",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 681009,
                 "nameCode": "INT",
                 "disabled": false,
@@ -2443,10 +2099,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 1,
               "matches": 13,
               "wins": 10,
@@ -2463,11 +2116,7 @@
                 "slug": "juventus",
                 "shortName": "Juventus",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 713564,
                 "nameCode": "JUV",
                 "disabled": false,
@@ -2481,10 +2130,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 2,
               "matches": 13,
               "wins": 9,
@@ -2501,11 +2147,7 @@
                 "slug": "milan",
                 "shortName": "Milan",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 726666,
                 "nameCode": "ACM",
                 "disabled": false,
@@ -2519,10 +2161,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 3,
               "matches": 13,
               "wins": 8,
@@ -2539,11 +2178,7 @@
                 "slug": "napoli",
                 "shortName": "Napoli",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 564575,
                 "nameCode": "NAP",
                 "disabled": false,
@@ -2557,10 +2192,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 4,
               "matches": 13,
               "wins": 7,
@@ -2577,11 +2209,7 @@
                 "slug": "roma",
                 "shortName": "Roma",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 430030,
                 "nameCode": "ASR",
                 "disabled": false,
@@ -2595,10 +2223,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "UEFA Europa League",
-                "id": 808
-              },
+              "promotion": { "text": "UEFA Europa League", "id": 808 },
               "position": 5,
               "matches": 13,
               "wins": 6,
@@ -2615,11 +2240,7 @@
                 "slug": "bologna",
                 "shortName": "Bologna",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 65275,
                 "nameCode": "BFC",
                 "disabled": false,
@@ -2653,11 +2274,7 @@
                 "slug": "fiorentina",
                 "shortName": "Fiorentina",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 141864,
                 "nameCode": "ACF",
                 "disabled": false,
@@ -2687,11 +2304,7 @@
                 "slug": "atalanta",
                 "shortName": "Atalanta",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 211426,
                 "nameCode": "ATA",
                 "disabled": false,
@@ -2721,11 +2334,7 @@
                 "slug": "monza",
                 "shortName": "Monza",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 49513,
                 "nameCode": "MON",
                 "disabled": false,
@@ -2755,11 +2364,7 @@
                 "slug": "frosinone",
                 "shortName": "Frosinone",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 33669,
                 "nameCode": "FRO",
                 "disabled": false,
@@ -2789,11 +2394,7 @@
                 "slug": "lazio",
                 "shortName": "Lazio",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 236841,
                 "nameCode": "LAZ",
                 "disabled": false,
@@ -2823,11 +2424,7 @@
                 "slug": "torino",
                 "shortName": "Torino",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 72665,
                 "nameCode": "TOR",
                 "disabled": false,
@@ -2857,11 +2454,7 @@
                 "slug": "lecce",
                 "shortName": "Lecce",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 58662,
                 "nameCode": "LEC",
                 "disabled": false,
@@ -2891,11 +2484,7 @@
                 "slug": "sassuolo",
                 "shortName": "Sassuolo",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 69659,
                 "nameCode": "SAS",
                 "disabled": false,
@@ -2925,11 +2514,7 @@
                 "slug": "genoa",
                 "shortName": "Genoa",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 48314,
                 "nameCode": "GEN",
                 "disabled": false,
@@ -2959,11 +2544,7 @@
                 "slug": "udinese",
                 "shortName": "Udinese",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 61457,
                 "nameCode": "UDI",
                 "disabled": false,
@@ -2993,11 +2574,7 @@
                 "slug": "cagliari",
                 "shortName": "Cagliari",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 43393,
                 "nameCode": "CAG",
                 "disabled": false,
@@ -3027,11 +2604,7 @@
                 "slug": "empoli",
                 "shortName": "Empoli",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 58605,
                 "nameCode": "EMP",
                 "disabled": false,
@@ -3045,10 +2618,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 18,
               "matches": 13,
               "wins": 3,
@@ -3065,11 +2635,7 @@
                 "slug": "hellas-verona",
                 "shortName": "Verona",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 56064,
                 "nameCode": "VER",
                 "disabled": false,
@@ -3083,10 +2649,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 19,
               "matches": 13,
               "wins": 2,
@@ -3103,11 +2666,7 @@
                 "slug": "salernitana",
                 "shortName": "Salernitana",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 51346,
                 "nameCode": "SAL",
                 "disabled": false,
@@ -3121,10 +2680,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 20,
               "matches": 13,
               "wins": 1,
@@ -3150,11 +2706,7 @@
             "category": {
               "name": "France",
               "slug": "france",
-              "sport": {
-                "name": "Football",
-                "slug": "football",
-                "id": 1
-              },
+              "sport": { "name": "Football", "slug": "football", "id": 1 },
               "id": 7,
               "flag": "france",
               "alpha2": "FR"
@@ -3167,11 +2719,7 @@
               "category": {
                 "name": "France",
                 "slug": "france",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "id": 7,
                 "flag": "france",
                 "alpha2": "FR"
@@ -3198,11 +2746,7 @@
                 "slug": "paris-saint-germain",
                 "shortName": "PSG",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 1031676,
                 "nameCode": "PSG",
                 "disabled": false,
@@ -3216,10 +2760,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 1,
               "matches": 13,
               "wins": 9,
@@ -3236,11 +2777,7 @@
                 "slug": "nice",
                 "shortName": "Nice",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 80644,
                 "nameCode": "OGCN",
                 "disabled": false,
@@ -3254,10 +2791,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 2,
               "matches": 13,
               "wins": 8,
@@ -3274,11 +2808,7 @@
                 "slug": "as-monaco",
                 "shortName": "AS Monaco",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 178277,
                 "nameCode": "ASM",
                 "disabled": false,
@@ -3292,10 +2822,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Champions League",
-                "id": 804
-              },
+              "promotion": { "text": "Champions League", "id": 804 },
               "position": 3,
               "matches": 13,
               "wins": 7,
@@ -3312,11 +2839,7 @@
                 "slug": "lille",
                 "shortName": "Lille",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 109420,
                 "nameCode": "LOSC",
                 "disabled": false,
@@ -3350,11 +2873,7 @@
                 "slug": "stade-de-reims",
                 "shortName": "Reims",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 39285,
                 "nameCode": "SDR",
                 "disabled": false,
@@ -3368,10 +2887,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "UEFA Europa League",
-                "id": 808
-              },
+              "promotion": { "text": "UEFA Europa League", "id": 808 },
               "position": 5,
               "matches": 13,
               "wins": 6,
@@ -3388,11 +2904,7 @@
                 "slug": "lens",
                 "shortName": "Lens",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 108498,
                 "nameCode": "RCL",
                 "disabled": false,
@@ -3426,11 +2938,7 @@
                 "slug": "stade-brestois",
                 "shortName": "Brest",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 31907,
                 "nameCode": "SB29",
                 "disabled": false,
@@ -3460,11 +2968,7 @@
                 "slug": "le-havre",
                 "shortName": "Le Havre",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 24187,
                 "nameCode": "HAC",
                 "disabled": false,
@@ -3494,11 +2998,7 @@
                 "slug": "metz",
                 "shortName": "Metz",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 27875,
                 "nameCode": "FCM",
                 "disabled": false,
@@ -3528,11 +3028,7 @@
                 "slug": "stade-rennais",
                 "shortName": "Rennes",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 79839,
                 "nameCode": "SRFC",
                 "disabled": false,
@@ -3562,11 +3058,7 @@
                 "slug": "nantes",
                 "shortName": "Nantes",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 47966,
                 "nameCode": "FCN",
                 "disabled": false,
@@ -3596,11 +3088,7 @@
                 "slug": "olympique-de-marseille",
                 "shortName": "Marseille",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 248625,
                 "nameCode": "OM",
                 "disabled": false,
@@ -3630,11 +3118,7 @@
                 "slug": "montpellier",
                 "shortName": "Montpellier",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 40467,
                 "nameCode": "MHS",
                 "disabled": false,
@@ -3669,11 +3153,7 @@
                 "slug": "strasbourg",
                 "shortName": "Strasbourg",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 41432,
                 "nameCode": "RCS",
                 "disabled": false,
@@ -3703,11 +3183,7 @@
                 "slug": "toulouse",
                 "shortName": "Toulouse",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 53338,
                 "nameCode": "TFC",
                 "disabled": false,
@@ -3737,11 +3213,7 @@
                 "slug": "lorient",
                 "shortName": "Lorient",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 36782,
                 "nameCode": "FCL",
                 "disabled": false,
@@ -3755,10 +3227,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation Playoffs",
-                "id": 45
-              },
+              "promotion": { "text": "Relegation Playoffs", "id": 45 },
               "position": 16,
               "matches": 13,
               "wins": 2,
@@ -3775,11 +3244,7 @@
                 "slug": "clermont-foot",
                 "shortName": "Clermont",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 29255,
                 "nameCode": "CF63",
                 "disabled": false,
@@ -3793,10 +3258,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 17,
               "matches": 13,
               "wins": 2,
@@ -3813,11 +3275,7 @@
                 "slug": "olympique-lyonnais",
                 "shortName": "Lyon",
                 "gender": "M",
-                "sport": {
-                  "name": "Football",
-                  "slug": "football",
-                  "id": 1
-                },
+                "sport": { "name": "Football", "slug": "football", "id": 1 },
                 "userCount": 163769,
                 "nameCode": "OL",
                 "disabled": false,
@@ -3831,10 +3289,7 @@
                 }
               },
               "descriptions": [],
-              "promotion": {
-                "text": "Relegation",
-                "id": 3
-              },
+              "promotion": { "text": "Relegation", "id": 3 },
               "position": 18,
               "matches": 12,
               "wins": 1,
