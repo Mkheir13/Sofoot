@@ -12,7 +12,7 @@
           "name": "Football",
           "slug": "football",
           "id": 1,
-          "UUid": "52186"
+          "UUid": 52186
         },
         "id": 1,
         "flag": "england",
@@ -34,7 +34,7 @@
           "name": "Football",
           "slug": "football",
           "id": 1,
-          "UUid": "52376"
+          "UUid": 52376
         },
         "id": 32,
         "flag": "spain",
@@ -56,7 +56,7 @@
           "name": "Football",
           "slug": "football",
           "id": 1,
-          "UUid": "52608"
+          "UUid": 52608
         },
         "id": 30,
         "flag": "germany",
@@ -78,7 +78,7 @@
           "name": "Football",
           "slug": "football",
           "id": 1,
-          "UUid": "52760"
+          "UUid": 52760
         },
         "id": 31,
         "flag": "italy",
@@ -100,7 +100,7 @@
           "name": "Football",
           "slug": "football",
           "id": 1,
-          "UUid": "52571"
+          "UUid": 52571
         },
         "id": 7,
         "flag": "france",
