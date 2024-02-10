@@ -5,16 +5,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import json
-import csv
 
 from matplotlib import pyplot as plt
 
-# Load JSON data
-with open('playersdata.json') as f:
+with open('playersdata.json', encoding='utf-8') as f:
     data = json.load(f)
 
 df = pd.json_normalize(data,
                        meta=['playername',
+                             'position',
                              ['data', 'statistics', 'rating'],
                              ['data', 'statistics', 'totalRating'],
                              ['data', 'statistics', 'countRating'],
@@ -141,27 +140,23 @@ df = pd.json_normalize(data,
                              ]
                        )
 
-# clean the column names
-
 df.columns = df.columns.str.replace('data.statistics.', '')
 df.columns = df.columns.str.replace('data.team.', 'team.')
 
-# convert the columns to numeric
-
 df = df.apply(pd.to_numeric, errors='ignore')
-
-# set page wide
 
 st.set_page_config(page_title="Football Players Data", layout="wide")
 
-col1, col2, col3 = st.columns([0.3, 0.3, 0.4])
+col1, col2, col3 = st.columns([0.3, 0.3, 0.3])
+
+player_name_for_comparaison = ""
+player_name_for_comparaison2 = ""
 
 with col1:
     st.subheader("Search Team")
-    # Add a search bar
+
     search = st.text_input("Search Team")
 
-    # Rename column without dots
     df = df.rename(columns={"team.name": "team_name"})
 
     if search:
@@ -174,22 +169,21 @@ with col1:
 
     pitch = Pitch(pitch_color='grass', line_color='white', stripe=True)
 
-    player_positions = np.array([[5, 40],  # goalkeeper
-                                [25, 10], [20, 30], [20, 50], [25, 70],  # defenders
-                                [40, 10], [40, 30], [40, 50], [40, 70],  # midfielders
-                                [60, 30], [60, 50]]) # forwards
+    Goalkeeper = [5, 40]
+    Defenders = [[25, 10], [20, 30], [20, 50], [25, 70]]
+    Midfielders = [[40, 10], [40, 30], [40, 50], [40, 70]]
+    Forwards = [[60, 30], [60, 50]]
 
+    player_positions = np.array(Forwards + Midfielders + Defenders + [Goalkeeper])
     fig, ax = pitch.draw(figsize=(20, 30))
-    ax.scatter(player_positions[:, 0], player_positions[:, 1], s=200, color='none', edgecolor='none', zorder=1)
 
-    # put the 10 first player names on the pitch and display the name vertically
     for i, txt in enumerate(team_players[:11]):
-        ax.text(player_positions[i, 0], player_positions[i, 1], txt, color='black', fontsize=20, ha='center', va='center', zorder=2, rotation=-90)
+        ax.text(player_positions[i, 0], player_positions[i, 1], txt, color='black', fontsize=20, ha='center',
+                va='center', zorder=2, rotation=-90)
 
+    ax.set_xlim(0, 80)
     plt.show()
-
     st.pyplot(fig)
-
 
     selector = st.selectbox('Select a player', team_players)
 
@@ -197,8 +191,8 @@ with col1:
         df = df[df['playername'].astype(str).str.contains(selector)]
 
         selected_player = df[df['playername'] == selector]
-
-        # display the goal scored by the selected player
+        # stock player name
+        player_name_for_comparaison = selected_player['playername'].values[0]
 
         st.write(f"{selector} has scored {selected_player['goals'].values[0]} goals")
 
@@ -215,8 +209,6 @@ with col1:
 
         st.write(f" 🏃‍♂️ Minutes Played: {selected_player['minutesPlayed'].values[0]}")
 
-# search player name and display the player data
-
 with col2:
     st.subheader("Search Player")
 
@@ -225,15 +217,15 @@ with col2:
     if player_name:
         df = df[df['playername'].astype(str).str.contains(player_name)]
 
-    # Display player stats
     if st.button('Show Player Stats'):
 
-        # Filter data
         searched_player = [p for p in data if p['playername'].lower() == player_name.lower()]
 
         if searched_player:
 
             player = searched_player[0]
+            # stock player name
+            player_name_for_comparaison2 = player['playername']
 
             stats = player['data']['statistics']
 
@@ -254,3 +246,17 @@ with col2:
 
         else:
             st.write("No player found")
+
+with col3:
+    st.subheader("Player Comparaison")
+
+    if player_name_for_comparaison and player_name_for_comparaison2:
+        st.write(f"Comparing {player_name_for_comparaison} and {player_name_for_comparaison2}")
+
+    #sns for goals
+    fig, ax = plt.subplots()
+    ax.bar([player_name_for_comparaison, player_name_for_comparaison2],
+           [selected_player['goals'].values[0], stats.get('goals', 0)])
+    st.pyplot(fig)
+
+
