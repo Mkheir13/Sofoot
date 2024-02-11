@@ -137,6 +137,7 @@ df = pd.json_normalize(data,
                              ['data', 'team', 'national'],
                              ['data', 'team', 'type'],
                              ['data', 'team', 'id'],
+                             ['data', 'team', 'teamColors', 'primary'],
                              ]
                        )
 
@@ -147,10 +148,35 @@ df = df.apply(pd.to_numeric, errors='ignore')
 
 st.set_page_config(page_title="Football Players Data", layout="wide")
 
-col1, col2, col3 = st.columns([0.3, 0.3, 0.3])
+with st.container():
+    st.title("Goals Players Data for Forwards : 2023/2024 Season")
+
+col1, col2 = st.columns(2)
 
 player_name_for_comparaison = ""
 player_name_for_comparaison2 = ""
+stats = {}
+
+colors_first_player = df['team.teamColors.primary'].unique()
+colors_second_player = "black"
+
+# select all players with the position of forward
+forwards = df[df['position'] == 'F']
+# select all players with the position of midfielder
+midfielders = df[df['position'] == 'M']
+# select all players with the position of defender
+defenders = df[df['position'] == 'D']
+# select all players with the position of goalkeeper
+goalkeepers = df[df['position'] == 'G']
+
+# team name
+team_name = df['team.name'].values[0]
+
+with st.sidebar:
+    st.title("Football Players Data")
+    st.subheader("Search for players and teams")
+    st.write("Search for players and teams and compare their statistics")
+    st.write("Data from: [Sofa-score](https://www.sofascore.com)")
 
 with col1:
     st.subheader("Search Team")
@@ -160,7 +186,7 @@ with col1:
     df = df.rename(columns={"team.name": "team_name"})
 
     if search:
-        df = df[df['team_name'].astype(str).str.contains(search)]
+        team_name = df[df['team_name'].astype(str).str.contains(search)]
 
     if st.button('Search'):
         df = df[df['team_name'].astype(str).str.contains(search)]
@@ -181,9 +207,10 @@ with col1:
         ax.text(player_positions[i, 0], player_positions[i, 1], txt, color='black', fontsize=20, ha='center',
                 va='center', zorder=2, rotation=-90)
 
-    ax.set_xlim(0, 80)
+    ax.set_ylim(0, 80)
     plt.show()
     st.pyplot(fig)
+    st.image(f'https://api.sofascore.app/api/v1/team/{str(df["team.id"].values[0]).split(".")[0]}/image', width=200)
 
     selector = st.selectbox('Select a player', team_players)
 
@@ -194,7 +221,7 @@ with col1:
         # stock player name
         player_name_for_comparaison = selected_player['playername'].values[0]
 
-        st.write(f"{selector} has scored {selected_player['goals'].values[0]} goals")
+        st.subheader(f"{selector} has scored {selected_player['goals'].values[0]} goals")
 
         columns1, columns2, columns3 = st.columns(3)
 
@@ -228,6 +255,7 @@ with col2:
             player_name_for_comparaison2 = player['playername']
 
             stats = player['data']['statistics']
+            colors_second_player = player['data']['team']['teamColors']['primary']
 
             st.subheader(f"Statistics for {player['playername']}")
 
@@ -247,16 +275,63 @@ with col2:
         else:
             st.write("No player found")
 
-with col3:
-    st.subheader("Player Comparaison")
+with st.container():
+    st.subheader("Player Goals Comparaison")
 
+    col1, col2, col3, col4 = st.columns(4)
     if player_name_for_comparaison and player_name_for_comparaison2:
         st.write(f"Comparing {player_name_for_comparaison} and {player_name_for_comparaison2}")
 
-    #sns for goals
-    fig, ax = plt.subplots()
-    ax.bar([player_name_for_comparaison, player_name_for_comparaison2],
-           [selected_player['goals'].values[0], stats.get('goals', 0)])
-    st.pyplot(fig)
+    with col1:
+        # sns for goals
+        fig, ax = plt.subplots()
+        # show the color of the team for each player
+        ax.bar([player_name_for_comparaison, player_name_for_comparaison2],
+               [selected_player['goals'].values[0], stats.get('goals', 0)],
+               color=[colors_first_player[0], colors_second_player])
+        ax.set_xlabel('Players')
+        ax.set_ylabel('Goals')
+        st.pyplot(fig)
 
+    with col2:
+        # nuage de points pour les buts pour tires effectués pour tous les joueurs de la meme position
+        fig, ax = plt.subplots()
+        ax.scatter(forwards['totalShots'], forwards['goals'], color='blue', label='Forwards')
 
+        ax.scatter([selected_player['totalShots'].values[0], stats.get('totalShots', 0)],
+                   [selected_player['goals'].values[0], stats.get('goals', 0)],
+                   color=[colors_first_player[0], colors_second_player], label='Selected Players')
+        forwards_with_better_conversion_rate = forwards[
+            forwards['goalConversionPercentage'] > selected_player['goalConversionPercentage'].values[0]]
+        ax.scatter(forwards_with_better_conversion_rate['totalShots'], forwards_with_better_conversion_rate['goals'],
+                   color='green',
+                   label='Forwards with better conversion rate')
+        ax.set_xlabel('Total Shots')
+        ax.set_ylabel('Goals')
+        ax.legend()
+        st.pyplot(fig)
+
+    with col3:
+        # sns for most clubs with the most players with a better goal conversion rate
+        fig, ax = plt.subplots()
+        forwards_with_better_conversion_rate.sort_values(by='goalConversionPercentage', ascending=False)[
+            'team.name'].value_counts().head(10).plot(kind='bar', color='blue')
+        ax.set_xlabel('Teams')
+        ax.set_ylabel('Number of players')
+        st.pyplot(fig)
+
+    # write the name of the forwards that have a better goal conversion rate than the selected player
+    forwards_with_better_conversion_rate = forwards[
+        forwards['goalConversionPercentage'] > selected_player['goalConversionPercentage'].values[0]]
+    st.write("Forwards with a better goal conversion rate than the selected player")
+
+    # goal conversion rate of the selected player
+    st.subheader(
+        f"Goal conversion rate of {player_name_for_comparaison}: {selected_player['goalConversionPercentage'].values[0]}")
+
+    # display the goal conversion from the most to the least
+    st.subheader(
+        f"10 Goal conversion rate from the most to the least that have a better goal conversion rate than {player_name_for_comparaison}:")
+    st.write(forwards_with_better_conversion_rate[
+                 ['playername', 'goalConversionPercentage', 'goals', 'totalShots', 'minutesPlayed', 'penaltiesTaken',
+                  'penaltyGoals', f'team.name']])
