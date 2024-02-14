@@ -1,0 +1,83 @@
+{
+  "Championships": [
+    {
+      "id": 17,
+      "name": "Premier League",
+      "notes": {
+        "Physique": 9,
+        "Skill": 6,
+        "Tactical": 7,
+        "Technical": 6,
+        "Talent": 8,
+        "Possession": 4,
+        "Defending": 7,
+        "Attacking": 9,
+        "Mental": 8
+      }
+    },
+
+    {
+      "id": 8,
+      "name": "La Liga",
+      "notes": {
+        "Physique": 5,
+        "Skill": 9,
+        "Tactical": 9,
+        "Technical": 9,
+        "Talent": 9,
+        "Possession": 9,
+        "Defending": 6,
+        "Attacking": 9,
+        "Mental": 6
+      }
+    },
+
+    {
+      "id": 35,
+      "name": "Bundesliga",
+      "notes": {
+        "Physique": 8,
+        "Skill": 8,
+        "Tactical": 8,
+        "Technical": 9,
+        "Talent": 7,
+        "Possession": 8,
+        "Defending": 8,
+        "Attacking": 8,
+        "Mental": 7
+      }
+    },
+
+    {
+      "id": 23,
+      "name": "Serie A",
+      "notes": {
+        "Physique": 8,
+        "Skill": 5,
+        "Tactical": 9,
+        "Technical": 6,
+        "Talent": 7,
+        "Possession": 5,
+        "Defending": 9,
+        "Attacking": 5,
+        "Mental": 7
+      }
+    },
+
+    {
+      "id": 34,
+      "name": "Ligue 1",
+      "notes": {
+        "Physique": 8,
+        "Skill": 7,
+        "Tactical": 7,
+        "Technical": 7,
+        "Talent": 7,
+        "Possession": 7,
+        "Defending": 7,
+        "Attacking": 7,
+        "Mental": 7
+      }
+    }
+  ]
+}
